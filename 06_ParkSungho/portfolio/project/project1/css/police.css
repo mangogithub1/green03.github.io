@@ -1,0 +1,829 @@
+/* 컨테이너 */
+
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: inherit;
+    color: #fff;
+}
+
+
+/* header */
+
+#header {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* header_top */
+
+#header_top {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+#header_top .main {
+    width: 161px;
+    height: 46px;
+    margin: 20px 20px 20px 0px;
+    background: url(https://www.police.go.kr/resources/common/images/main/logo.png);
+}
+
+#header_top .shortcut1 {
+    width: 200px;
+}
+
+#header_top .shortcut1 .img {
+    width: 70px;
+    height: 46px;
+    margin: 20px 0;
+    background: url(https://www.police.go.kr/resources/common/images/banner/banner_taegeukgi.png)no-repeat;
+}
+
+#header_top .shortcut1 .desc {
+    width: 80px;
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#header_top .shortcut2 {
+    width: 107px;
+    height: 46px;
+    margin: 20px 0px;
+    background: url(https://www.police.go.kr/resources/common/images/banner/banner_govindex.png)no-repeat;
+}
+
+#header_top .shortcut3 {
+    width: 140px;
+    height: 46px;
+    margin: 20px 0px;
+    background: url(https://www.police.go.kr/resources/common/images/banner/go-korea.png)no-repeat;
+}
+
+#header_top .lang {
+    width: 76px;
+    height: 58px;
+    margin: 10px 0px;
+}
+
+
+/* header_text */
+
+#header_text {
+    width: 100%;
+    position: absolute;
+    margin-top: 230px;
+    z-index: 3;
+}
+
+#header_text>.container .text1 {
+    font-size: 65px;
+}
+
+#header_text>.container .button {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 270px;
+    background: #777 url(https://www.police.go.kr/resources/common/images/control_white.png) no-repeat 3px 3px;
+    cursor: pointer;
+}
+
+#header_text>.container .text2 {
+    width: 100%;
+}
+
+#header_text>.container>.text2>ul>li {
+    width: 48px;
+    height: 48px;
+}
+
+#header_text>.container>.text2>ul>.youtube {
+    background: url(../images/sns.png)no-repeat;
+    background-position: -96px 0px;
+}
+
+#header_text>.container>.text2>ul>.facebook {
+    background: url(../images/sns.png)no-repeat;
+}
+
+#header_text>.container>.text2>ul>.twitter {
+    background: url(../images/sns.png)no-repeat;
+    background-position: -48px 0px;
+}
+
+#header_text>.container>.text2>ul>.blog {
+    background: url(../images/sns.png)no-repeat;
+    background-position: -144px 0px;
+}
+
+#header_text>.container>.text2>ul>.instagram {
+    background: url(../images/sns.png)no-repeat;
+    background-position: -240px 0px;
+}
+
+#header_text>.container>.text2>ul>.band {
+    background: url(../images/sns.png)no-repeat;
+    background-position: -288px 0px;
+}
+
+#header_text>.container>.text2>ul>.kakao {
+    background: url(../images/sns.png)no-repeat;
+    background-position: -336px 0px;
+}
+
+.hidden {
+    display: block;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.slide>ul.slideUl {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.slide>ul.slideUl>li {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+#header .slide>ul.slideUl>.slide01 {
+    background: url(../images/img1.jpg)no-repeat;
+    background-size: cover;
+    left: 0;
+}
+
+#header .slide>ul.slideUl>.slide02 {
+    background: url(../images/img3.jpg)no-repeat;
+    background-size: cover;
+    left: 100%;
+}
+
+.btnImg {
+    position: relative;
+    top: -275px;
+    width: 100%;
+}
+
+.btnImg .prev {
+    position: absolute;
+    left: 100px;
+}
+
+.btnImg .next {
+    position: absolute;
+    right: 100px;
+}
+
+#header #back-to-top {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    background: #808080;
+    padding: 13px;
+    border-radius: 100%;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+#header #back-to-top:hover {
+    background-color: #a7a7a7;
+    padding: 1em 1em;
+}
+
+#header #back-to-top.visible {
+    opacity: 1;
+}
+
+
+/* header_nav */
+
+#header_nav {
+    width: 100%;
+    height: 70px;
+    background: rgba(0, 0, 0, .2);
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+}
+
+#header .icon1 {
+    height: 65%;
+    width: 4%;
+    margin-right: 20px;
+    margin-top: 12px;
+    background: rgb(35, 77, 146) url(https://www.police.go.kr/resources/common/images/ico_menu.png)no-repeat center center;
+}
+
+#header_nav .container .gnb {
+    width: 90%;
+    height: 70px;
+}
+
+#header_nav .container .gnb>li {
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#header_nav .container .gnb>li:hover ul {
+    display: block;
+}
+
+#header_nav .container .gnb>li>a {
+    height: 100%;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    font-size: 17px;
+    line-height: 70px;
+}
+
+#header_nav .container .gnb>li>ul {
+    background: #fff;
+    line-height: 1;
+    display: none;
+    position: absolute;
+    width: 300px;
+    padding: 20px 0;
+    letter-spacing: -1px;
+}
+
+#header_nav .container .gnb>li>ul>li {
+    height: 100%;
+    position: relative;
+}
+
+#header_nav .container .gnb>li>ul>li::before {
+    content: '';
+    position: absolute;
+    background-color: #333;
+    left: 10px;
+    top: 19px;
+    display: block;
+    width: 5px;
+    height: 1px;
+}
+
+#header_nav .container .gnb>li>ul>.dep2::before {
+    width: 0;
+    height: 0;
+}
+
+#header_nav .container .gnb>li>ul a {
+    color: #333;
+    display: block;
+    padding: 10px 5px;
+    font-size: 15px;
+}
+
+#header_nav .container .gnb>li>ul a {
+    text-align: left;
+    padding-left: 24px;
+}
+
+
+/* content1 */
+
+#content1 {
+    height: 360px;
+}
+
+#content1>.container>.cf>div {
+    height: 280px;
+    width: 285px;
+    margin-left: 15px;
+    color: black;
+    padding-top: 25px;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+}
+
+#content1>.container>.cf>div:first-child {
+    margin-left: 0;
+    font-size: 30px;
+    border: 0;
+}
+
+#content1>.container {
+    padding-top: 40px;
+}
+
+#content1>.container .fl .thumb {
+    width: 135px;
+    height: 95px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#content1>.container .fl .tit {
+    width: 190px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#content1>.container .fl .desc {
+    width: 210px;
+    height: 35px;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+#content1>.container .fl .button {
+    width: 250px;
+    height: 35px;
+    margin-left: 16px;
+    border: 1px solid #777;
+    text-align: center;
+    padding-top: 8px;
+}
+
+
+/* content2 */
+
+#content2 {
+    height: 360px;
+    background-color: #e8edee;
+}
+
+#content2>.container>.textbox1 {
+    width: 294px;
+    height: 270px;
+    margin: 25px 1px 20px 3px;
+    background: #fff;
+}
+
+#content2>.container .fl .thumb {
+    height: 180px;
+}
+
+#content2>.container .fl .textbox {
+    width: 90%;
+    margin: 15px;
+    color: #333;
+}
+
+#content2>.container .fl .textbox .tit {
+    height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: bold
+}
+
+#content2>.container .fl .textbox .desc {
+    height: 27px;
+    font-size: 15px;
+}
+
+#content2>.container>.button {
+    width: 110px;
+    margin-left: 600px;
+}
+
+#content2>.container>.button>.num {
+    width: 82px;
+    height: 33px;
+    background: #122e79;
+}
+
+#content2>.container>.button>.stop {
+    width: 24px;
+    height: 24px;
+    margin-left: 2px;
+    margin-top: 4px;
+    background: url(../images/start.png)no-repeat -23px 0 #30343f;
+}
+
+
+/* content3 */
+
+#content3 {
+    height: 355px;
+}
+
+#content3>.container>.cf>div {
+    height: 280px;
+    width: 285px;
+    margin-left: 15px;
+    color: black;
+    padding-top: 25px;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+}
+
+#content3>.container>.cf>div:first-child {
+    margin-left: 0;
+    font-size: 30px;
+    border: 0;
+}
+
+#content3>.container {
+    padding-top: 40px;
+}
+
+#content3>.container .fl .thumb {
+    width: 180px;
+    height: 95px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#content3>.container .fl .photo {
+    background: url(https://www.police.go.kr/resources/common/images/main/human_police_bg2.png) no-repeat;
+    background-position: center;
+}
+
+#content3>.container .fl .tit {
+    width: 250px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#content3>.container .fl .desc {
+    width: 210px;
+    height: 35px;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+#content3>.container .fl .button {
+    width: 250px;
+    height: 35px;
+    margin-left: 16px;
+    border: 1px solid #777;
+    text-align: center;
+    padding-top: 8px;
+}
+
+
+/* content4 */
+
+#content4 {
+    width: 100%;
+    height: 330px;
+    background: url(https://www.police.go.kr/resources/common/images/main_bt_visual.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#content4 h2 {
+    padding: 40px 0 30px 0;
+    font-size: 28px;
+    color: #fff;
+}
+
+
+/* content5 */
+
+#content5 {
+    background-color: #eef0f6;
+}
+
+#content5 .container h2 {
+    width: 1200px;
+    height: 100px;
+    font-family: 'NotoSansR';
+    font-size: 30px;
+    color: #092642;
+    text-align: center;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    float: left;
+    padding-top: 45px;
+}
+
+#content5 .container h2 .tit {
+    text-align: center;
+    width: 100%;
+}
+
+#content5 .container h2 .desc {
+    font-size: 14px;
+    color: #717171;
+    text-align: center;
+}
+
+#content5 .container .Notice1 {
+    width: 590px;
+    height: 300px;
+    color: #333;
+}
+
+#content5 .container .Notice2 {
+    width: 590px;
+    height: 300px;
+    color: #333;
+}
+
+
+/* content5 slied */
+
+#content5>.container .tab_menu {
+    position: relative;
+    padding: 8px;
+}
+
+#content5>.container .tab_menu ul {
+    overflow: hidden;
+    border-bottom: 1px solid #999;
+}
+
+#content5>.container .tab_menu>ul>li {
+    float: left;
+    padding: 11px 17px;
+    background: url(../images/divide_line1.png) no-repeat right center;
+}
+
+#content5>.container .tab_menu ul li .panel {
+    position: absolute;
+    left: 0;
+    top: 45px;
+    width: 100%;
+    border: 0;
+}
+
+#content5>.container .tab_menu ul li .panel li {
+    padding-left: 18px;
+}
+
+#content5>.container .tab_menu ul li .panel li a {
+    width: 400px;
+    color: black;
+    display: inline-block;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: url(https://www.police.go.kr/resources/common/images/blt1.png) no-repeat 0 9px;
+    padding-left: 10px;
+}
+
+#content5>.container .tab_menu>ul>li.active {
+    background: #3d7ece;
+}
+
+#content5>.container .tab_menu>ul>li.active a {
+    color: #fff;
+}
+
+#content5>.container .tab_menu ul li.active ul li a {
+    color: #333;
+}
+
+#content5>.container .panel>li>span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+/* #footer #related_links */
+
+#related_links {
+    height: 60px;
+    background-color: #fff;
+}
+
+#footer .dropup {
+    margin-right: 6px;
+}
+
+#footer .dropup button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 9px;
+    padding-right: 165px;
+    font-size: 14px;
+    color: #6c6c6c;
+    background: #fff;
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
+    text-align: left;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+#footer .dropup>.dropup_menu {
+    display: none;
+}
+
+
+/* #footer #back-to-top{position: fixed; background:#555;color: #313943;display: inline-block;margin-top:12px ;padding:8px 13px;text-transform: uppercase;} */
+
+
+/* footer_menu */
+
+#footer .footer_menu {
+    width: 100%;
+    background: #30343f;
+}
+
+#footer .footer_menu .container {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#footer .footer_menu .container .user_menu {
+    float: left;
+    height: 44px;
+    line-height: 44px;
+}
+
+#footer .footer_menu .container .user_menu li {
+    float: left;
+    margin-left: 20px;
+}
+
+#footer .footer_menu .container .user_menu li a {
+    color: #fff;
+}
+
+#footer .footer_menu .container .user_menu li.admin a {
+    margin-left: 0px;
+    color: #ffb71b;
+    font-weight: bold;
+}
+
+#footer .footer_menu .container .sns_menu {
+    float: right;
+    height: 44px;
+}
+
+#footer .footer_menu .container .sns_menu li {
+    float: left;
+}
+
+#footer .footer_menu .container .sns_menu li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #4e555f url(https://www.police.go.kr/resources/common/images/sns_sprite.png) no-repeat 0 0;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+#footer .footer_menu .container .sns_menu li.youtube a {
+    background-position: -60px 0;
+}
+
+#footer .footer_menu .container .sns_menu li.facebook a {
+    background-position: 0 0;
+}
+
+#footer .footer_menu .container .sns_menu li.twitter a {
+    background-position: -30px 0;
+}
+
+#footer .footer_menu .container .sns_menu li.blog a {
+    background-position: -90px 0;
+}
+
+#footer .footer_menu .container .sns_menu li.instagram a {
+    background-position: -150px 0;
+}
+
+#footer .footer_menu .container .sns_menu li.band a {
+    background-position: -180px 0;
+}
+
+#footer .footer_menu .container .sns_menu li.kakao a {
+    background-position: -210px 0;
+    margin-right: 0;
+}
+
+#footer .footer_menu .container .sns_menu span {
+    display: none;
+}
+
+
+/* footer_info */
+
+#footer .footer_info {
+    width: 100%;
+    background-color: #494f57;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#footer .footer_info .container {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#footer .footer_info .symbol {
+    background: url(https://www.police.go.kr/resources/common/images/footer_symbol.png) no-repeat 0 0;
+    float: left;
+    width: 64px;
+    height: 91px;
+    margin-right: 35px;
+    ;
+}
+
+#footer .footer_info .symbol span {
+    display: none;
+}
+
+#footer .footer_info .pull_center {
+    float: left;
+}
+
+#footer .footer_info .address {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+#footer .footer_info .address ul li {
+    float: left;
+    border-right: 1px solid #6c6c6c;
+    padding: 0 10px;
+}
+
+#footer .footer_info .address ul li:first-child {
+    padding-left: 0;
+}
+
+#footer .footer_info .address ul li a {
+    color: #ffb71b;
+    font-weight: bold;
+}
+
+#footer .footer_info .copyright {
+    color: #b8c4d1;
+    text-transform: uppercase;
+}
+
+#footer .footer_info .notice {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #99a9c8;
+    letter-spacing: -1px;
+}
+
+#footer .pull_right .certification_mark a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#footer .pull_right .certification_mark .img_sub {
+    color: #fff;
+    font-size: 11px;
+}
+
+#footer .pull_right .certification_mark a span {
+    display: none;
+}
+
+#footer .pull_right .web_watch {
+    margin-left: 24px;
+}
+
+#footer .pull_right .e_privacy {
+    margin-left: 17px;
+}
+
+#footer .pull_right .e_privacy img {
+    width: 63px;
+    height: auto;
+}

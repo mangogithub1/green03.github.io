@@ -1,0 +1,37 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 537.69 272.97">
+  <defs>
+    <style>
+      .cls-1{fill:#e2e0e0}.cls-3{font-size:16px;font-family:MyriadPro-Regular,Myriad Pro}.cls-4{font-size:12px;fill:#9b9faa;font-family:NanumSquareEB,NanumSquare}
+    </style>
+  </defs>
+  <rect class="cls-1" x="60.16" y="3.2" width="417.77" height="7.48" rx="3.74"/>
+  <path d="M131.43 3.2h342.76a3.74 3.74 0 0 1 3.74 3.74 3.74 3.74 0 0 1-3.74 3.74H131.43V3.2Z" style="fill:#4298b4"/>
+  <text class="cls-3" transform="translate(.4 13.39)">17%</text>
+  <text class="cls-4" transform="translate(.4 35.91)">외향형</text>
+  <text transform="translate(508.61 13.39)" style="font-size:16px;font-family:MyriadPro-Regular,Myriad Pro;fill:#4298b4">83%</text>
+  <text transform="translate(504.93 35.91)" style="font-family:NanumSquareR,NanumSquare;font-size:12px;fill:#4298b4">내향형</text>
+  <rect class="cls-1" x="60.16" y="60.8" width="417.77" height="9.28" rx="4.64"/>
+  <path d="M215.84 60.8H473.3a4.64 4.64 0 0 1 4.64 4.64 4.64 4.64 0 0 1-4.64 4.64H215.84V60.8Z" style="fill:#e4ae3a"/>
+  <text class="cls-3" transform="translate(0 71.89)">37%</text>
+  <text class="cls-4" transform="translate(0 94.41)">직관형</text>
+  <text transform="translate(508.2 71.89)" style="fill:#e4ae3a;font-size:16px;font-family:MyriadPro-Regular,Myriad Pro">63%</text>
+  <text transform="translate(482.69 94.41)" style="fill:#e4ae3a;font-family:NanumSquareR,NanumSquare;font-size:12px">현실주의형</text>
+  <rect class="cls-1" x="60.16" y="119.3" width="417.77" height="9.28" rx="4.64"/>
+  <path d="M200.12 119.3H473.3a4.64 4.64 0 0 1 4.64 4.64 4.64 4.64 0 0 1-4.64 4.64H200.12v-9.28Z" style="fill:#33a474"/>
+  <text class="cls-3" transform="translate(0 130.39)">33%</text>
+  <text class="cls-4" transform="translate(0 152.91)">이성적사고형</text>
+  <text transform="translate(508.2 130.39)" style="fill:#33a474;font-size:16px;font-family:MyriadPro-Regular,Myriad Pro">67%</text>
+  <text transform="translate(482.69 152.91)" style="fill:#33a474;font-family:NanumSquareR,NanumSquare;font-size:12px">원칙주의형</text>
+  <rect class="cls-1" x="60.16" y="177.8" width="417.77" height="9.28" rx="4.64"/>
+  <path d="M168 177.8h305.3a4.64 4.64 0 0 1 4.64 4.64 4.64 4.64 0 0 1-4.64 4.64H168v-9.28Z" style="fill:#88619a"/>
+  <text class="cls-3" transform="translate(0 188.89)">25%</text>
+  <text class="cls-4" transform="translate(0 211.41)">계획형</text>
+  <text transform="translate(508.2 188.89)" style="fill:#88619a;font-size:16px;font-family:MyriadPro-Regular,Myriad Pro">75%</text>
+  <text transform="translate(504.53 211.41)" style="fill:#88619a;font-family:NanumSquareR,NanumSquare;font-size:12px">탐색형</text>
+  <rect class="cls-1" x="60.16" y="236.3" width="417.77" height="9.28" rx="4.64"/>
+  <path d="M196.6 236.3h276.7a4.64 4.64 0 0 1 4.64 4.64 4.64 4.64 0 0 1-4.64 4.64H196.6v-9.28Z" style="fill:#f25e62"/>
+  <text class="cls-3" transform="translate(0 247.39)">33%</text>
+  <text class="cls-4" transform="translate(0 269.91)">자기주장형</text>
+  <text transform="translate(508.2 247.39)" style="fill:#f25e62;font-size:16px;font-family:MyriadPro-Regular,Myriad Pro">67%</text>
+  <text transform="translate(504.53 269.91)" style="fill:#f25e62;font-family:NanumSquareR,NanumSquare;font-size:12px">신중형</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500" xml:space="preserve">
+  <style>
+    .st0{fill:#fff}.st1{fill:#353535}
+  </style>
+  <path class="st0" d="m99.4 393.1.5-180.7 153.8-93.5 150.6 93.4v180.8z"/>
+  <path class="st1" d="m253.7 119.5 150.1 93.1v180H99.9l.5-180 153.3-93.1m0-1.2L99.4 212.1l-.5 181.5h305.9V212l-151.1-93.7z"/>
+  <path class="st0" d="M104.3 136.1H399v251.4H104.3z"/>
+  <path class="st1" d="M398.6 136.6V387H104.8V136.6h293.8m1-1H103.8V388h295.7V135.6h.1z"/>
+  <g>
+    <path class="st0" d="M99.4 393.1V212.6l304.9 140.7v39.8z"/>
+    <path class="st1" d="m99.9 213.4 303.9 140.3v38.9H99.9V213.4m-1-1.6v181.8h305.9V353L98.9 211.8z"/>
+  </g>
+  <g>
+    <path class="st0" d="M99.9 393.1v-39.8l304.9-140.7v180.5z"/>
+    <path class="st1" d="M404.3 213.4v179.2H100.4v-38.9l303.9-140.3m1-1.6L99.4 353v40.6h305.9V211.8z"/>
+  </g>
+</svg>

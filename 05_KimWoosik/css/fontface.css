@@ -1,0 +1,151 @@
+/* Apple_SD_Gothic */
+@font-face{
+    font-family:'Apple_SD_Gothic_Thin';
+    font-style: normal;
+    font-weight: normal;
+    src:local('AppleSDGothicNeoT'), url('../font/AppleSDGothicNeoT.woff') format('woff')
+}
+@font-face{
+    font-family:'Apple_SD_Gothic_Ulight';
+    font-style: normal;
+    font-weight: normal;
+    src:local('AppleSDGothicNeoUL'), url('../font/AppleSDGothicNeoUL.woff') format('woff')
+}
+@font-face{
+    font-family:'Apple_SD_Gothic_Light';
+    font-style: normal;
+    font-weight: normal;
+    src:local('AppleSDGothicNeoL'), url('../font/AppleSDGothicNeoL.woff') format('woff');
+}
+@font-face{
+    font-family:'Apple_SD_Gothic_Regular';
+    font-style: normal;
+    font-weight: normal;
+    src:local('AppleSDGothicNeoR'), url('../font/AppleSDGothicNeoR.woff') format('woff');
+}
+@font-face{
+    font-family:'Apple_SD_Gothic_Medium';
+    font-style: normal;
+    font-weight: normal;
+    src:local('AppleSDGothicNeoM'), url('../font/AppleSDGothicNeoM.woff') format('woff');
+}
+@font-face{
+    font-family:'Apple_SD_Gothic_SeBold';
+    font-style: normal;
+    font-weight: normal;
+    src:local('AppleSDGothicNeoSB'), url('../font/AppleSDGothicNeoSB.woff') format('woff');
+}
+@font-face{
+    font-family:'Apple_SD_Gothic_Bold';
+    font-style: normal;
+    font-weight: normal;
+    src:local('AppleSDGothicNeoB'), url('../font/AppleSDGothicNeoB.woff') format('woff');
+}
+@font-face{
+    font-family:'Apple_SD_Gothic_ExBold';
+    font-style: normal;
+    font-weight: normal;
+    src:local('AppleSDGothicNeoEB'), url('../font/AppleSDGothicNeoEB.woff') format('woff');
+}
+@font-face{
+    font-family:'Apple_SD_Gothic_Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src:local('AppleSDGothicNeoH'), url('../font/AppleSDGothicNeoH.woff') format('woff');
+}
+@font-face{
+    font-family:'Helvetica_Neue_65M';
+    font-style: normal;
+    font-weight: normal;
+    src:local('HelveticaNeueLTStd-Md'), url('../font/HelveticaNeueLTStd-Md.woff') format('woff');
+}
+
+/* HelveticaNeue */
+@font-face{
+    font-family:'Helvetica_Neue_Ulight';
+    font-style: normal;
+    font-weight: normal;
+    src:local('HelveticaNeueLTStd-UltLt'), url('../font/HelveticaNeueLTStd-UltLt.woff') format('woff');
+}
+@font-face{
+    font-family:'Helvetica_Neue_Th';
+    font-style: normal;
+    font-weight: normal;
+    src:local('HelveticaNeueLTStd-Th'), url('../font/HelveticaNeueLTStd-Th.woff') format('woff');
+}
+@font-face{
+    font-family:'Helvetica_Neue_Light';
+    font-style: normal;
+    font-weight: normal;
+    src:local('HelveticaNeueLTStd-Lt'), url('../font/HelveticaNeueLTStd-Lt.woff') format('woff');
+}
+@font-face{
+    font-family:'Helvetica_Neue_Roman';
+    font-style: normal;
+    font-weight: normal;
+    src:local('HelveticaNeueLTStd-Roman'), url('../font/HelveticaNeueLTStd-Roman.woff') format('woff');
+}
+@font-face{
+    font-family:'Helvetica_Neue_Medium';
+    font-style: normal;
+    font-weight: normal;
+    src:local('HelveticaNeueLTStd-Md'), url('../font/HelveticaNeueLTStd-Md.woff') format('woff');
+}
+@font-face{
+    font-family:'Helvetica_Neue_Bold';
+    font-style: normal;
+    font-weight: normal;
+    src:local('HelveticaNeueLTStd-Bd'), url('../font/HelveticaNeueLTStd-Bd.woff') format('woff');
+}
+@font-face{
+    font-family:'Helvetica_Neue_Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src:local('HelveticaNeueLTStd-Hv'), url('../font/HelveticaNeueLTStd-Hv') format('woff');
+}
+@font-face{
+    font-family:'Helvetica_Neue_Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src:local('HelveticaNeueLTStd-Hv'), url('../font/HelveticaNeueLTStd-Hv') format('woff');
+}
+
+
+
+
+/* @font-face {
+    font-family: 'Apple_SD_Gothic_Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AppleSDGothicNeo'), url('../font/AppleSDGothicNeoL.otf') format('opentype');
+    }
+    
+
+    @font-face {
+    font-family: 'Apple_SD_Gothic_Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AppleSDGothicNeo Medium'), url('../font/AppleSDGothicNeoM.otf') format('opentype');
+    }
+    
+
+    @font-face {
+    font-family: 'Apple_SD_Gothic_Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AppleSDGothicNeo Bold'), url('../font/AppleSDGothicNeoB.otf') format('opentype');
+    }
+
+    @font-face {
+    font-family: 'Apple_SD_Gothic_ExBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AppleSDGothicNeo ExtraBold'), url('../font/AppleSDGothicNeoEB.otf') format('opentype');
+    }
+
+    @font-face {
+    font-family: 'Apple_SD_Gothic_Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AppleSDGothicNeo Heavy'), url('../font/AppleSDGothicNeoH.otf') format('opentype');
+    } */

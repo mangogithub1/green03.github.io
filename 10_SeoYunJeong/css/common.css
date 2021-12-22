@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+.container{
+    max-width: 1600px;
+    margin: auto;
+}
+
+section .container{
+    padding-top: 210px;
+    padding-bottom: 200px;
+}
+
+
+/* 프로젝트 타이틀 */
+.tt{
+    position: relative;
+    font-size: 2.375rem;
+    font-weight: 700;
+    padding-left: 3.375rem;
+    text-transform: uppercase;
+}
+
+.tt::after{/* 타이틀 장식 아이콘 */
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    margin: auto;
+    background: url(../img/sprite.png) no-repeat;
+    z-index: -1;
+}
+
+.tt.no-deco::after{
+    display: none;
+}
+
+.con{
+    margin-top: 84px;
+}
+
+.specific span{
+    font-size: 1.25rem;
+}
+
+
+/* 서브 타이틀 */
+.intro .specific span{
+    position: relative;
+    padding-left: 27px;
+}
+
+.intro .specific span.item2{
+    margin-left: 12px;
+}
+
+.intro .specific span::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: auto 0;
+    background: url(../img/sprite.png) no-repeat -448px -100px;
+}
+
+
+/* 작업물 부가 설명 */
+p[class^="desc"]{
+    font-size: 1.125rem;
+    word-break: keep-all;
+    color: #666;
+    font-weight: 300;
+}
+
+
+.btns{
+    display: inline-block;
+}
+
+.btns a{
+    position: relative;
+    font-size: 20px;
+    padding: 30px 36px;
+}
+
+/* 이력서 버튼 */
+.btns a.resume{
+    position: relative;
+    background: #2008a8;
+    border-radius: 16px;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 20px 70px 0px rgba(49, 39, 106, 0.33);
+    transition: all 0.4s;
+}
+
+.btns a.resume span{
+    position: relative;
+    z-index: 2;
+}
+
+.btns a.resume::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    display: block;
+    width: 0;
+    height: 0;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(to right, #2008a8, #ff24da);
+    z-index: 1;
+    transition: all 0.6s;
+}
+
+.btns a.resume:hover::after{
+    width: 350px;
+    height: 350px;
+}
+
+.btns a.resume:hover{
+    background-color: rgba(255, 36, 218, 0.938);
+    box-shadow: 0px 20px 70px 0px rgb(104, 78, 255, 0.52);
+}
+
+
+/* 프로필 더보기 버튼 */
+.btns a, .btns a.plan[class^="add-profile"]{
+    padding: 30px 36px;
+}
+
+.btns a[class^="add-profile"]::before, .btns a.plan::before{
+    content: "";
+    position: absolute;
+    top: 1px;
+    bottom: 0;
+    width: 30px;
+    height: 2px;
+    margin: auto 0;
+    background-color: #000;
+    transition: all 0.3s;
+}
+
+.add-profile-l::before, .btns a.plan::before{
+    left: -14px;
+}
+
+.add-profile-l, .btns a.plan{
+    margin-left: 40px;
+}
+
+.add-profile-r::before{
+    right: -17px;
+}
+
+.btns a[class^="add-profile"]:hover::before, .btns a.plan:hover::before{
+    width: 90%;
+}
+
+
+/* 분류 표시 */
+.cate-box{
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    z-index: 10;
+}
+
+#design .cate-box{
+    left: 5%;
+}
+
+.cate-box span{
+    display: inline-block;
+    padding: 4px 12px;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #000;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.cate-box span.type2{
+    background-color: #b235d1;
+}
+
+.cate-box span:first-child{
+    margin-left: 0;
+}
+
+
+/* 닫기 버튼 */
+.exit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 88px;
+    height: 88px;
+}
+
+.exit .line-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+
+.exit .line-box span{
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+
+.exit .line-box span.line1{
+    transform: rotate(45deg);
+}
+
+.exit .line-box span.line2{
+    transform: rotate(-45deg);
+}
+
+
+/* 스킬 아이콘 */
+.skills li{
+    width: 52px;
+    height: 52px;
+    background: url(../img/sprite.png) no-repeat;
+    margin-right: 14px;
+    margin-top: 14px;
+}
+
+.skills li.html{/* html */
+    background-position: 0px -101px;
+}
+
+.skills li.css{/* css */
+    background-position: -70px -101px;
+}
+
+.skills li.jq{/* jquery */
+    background-position: -141px -101px;
+}
+
+.skills li.js{/* js */
+    background-position: -212px -101px;
+}
+
+.skills li.scss{/* scss */
+    background-position: -283px -101px;
+}
+
+.skills li.boot{/* bootstrap */
+    background-position: -354px -101px;
+}
+
+.skills li.ps{/* photoshop */
+    background-position: 0px -170px;
+}
+
+.skills li.ai{/* ilustrator */
+    background-position: -70px -170px;
+}
+
+.skills li.adobe-xd{/* xd */
+    background-position: -141px -170px;
+}
+
+.skills li.pr{/* premier */
+    background-position: -212px -170px;
+}
+
+.skills li.ae{/* after effect */
+    background-position: -283px -170px;
+}
+
+
+/* 반응형 */
+@media screen and (max-width: 1600px){
+    .container{
+        max-width: 1192px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .container{
+        max-width: 100%;
+        width: 96%;
+    }
+
+    .tt{
+        padding-left: 4.375rem;
+    }
+
+    .tt::after{
+        left: 15px;
+    }
+
+    .specific{
+        margin-right: 15px;
+    }
+
+    .con{
+        margin-top: 72px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 480px){
+    
+}

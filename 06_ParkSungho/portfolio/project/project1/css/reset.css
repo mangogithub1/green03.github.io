@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0;}
+html{overflow-y: scroll; overflow-x: hidden;}
+img{border: 0;}
+a{text-decoration: none;}
+ul,li,ol{list-style: none;}
+.fl{float: left;}
+.fr{float: right;}
+.cb{clear: both;}
+.cf::after{content: '';display: block;clear: both;}

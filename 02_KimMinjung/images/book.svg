@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 100" style="enable-background: new 0 0 132 100" xml:space="preserve">
+<style>
+.line{
+    stroke-dashoffset: 0px;
+    stroke-dasharray: 250px;
+    animation: logo 6s infinite 1s;
+}
+@keyframes logo{
+    0%{stroke-dashoffset: 0px; stroke-dasharray: 250px;}
+    100%{stroke-dashoffset: 250px; stroke-dasharray: 240px;}
+}</style>
+    <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="13" y1="49.405" x2="120" y2="49.405">
+        <stop offset=".006" style="stop-color: #f7931e" />
+        <stop offset=".147" style="stop-color: #f89c27; stop-opacity: 0.962" />
+        <stop offset=".48" style="stop-color: #faab36; stop-opacity: 0.8727" />
+        <stop offset=".751" style="stop-color: #fbb03b; stop-opacity: 0.8" />
+        <stop offset=".827" style="stop-color: #fbb33a; stop-opacity: 0.7395" />
+        <stop offset=".884" style="stop-color: #fbbd36; stop-opacity: 0.6934" />
+        <stop offset=".935" style="stop-color: #fbcd2f; stop-opacity: 0.652" />
+        <stop offset=".983" style="stop-color: #fce425; stop-opacity: 0.6136" />
+        <stop offset="1" style="stop-color: #fcee21; stop-opacity: 0.6" />
+    </linearGradient>
+    <path class="line" d="M92.5 70.5c8.88-5.21 25.5-.5 25.5-.5l-10-36s-25-13-43 0c-15-11.46-41-1-41-1l-9 37s13-2.54 22.31.59" style="fill: none;stroke: url(#a);stroke-width: 4;stroke-linecap: round;stroke-linejoin: round;stroke-miterlimit: 10;" />
+</svg>

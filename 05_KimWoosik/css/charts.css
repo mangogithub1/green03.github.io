@@ -1,0 +1,39 @@
+.charts {width: 100%; margin:2rem auto;}
+
+.chart_wrap{display: flex;}
+/* .chart_wrap{display: flex; justify-content: center; align-items: center; background-color: gold;} */
+.chart_wrap>h2{width: 190px; font-family: Apple_SD_Gothic_Bold; font-size: 16px; letter-spacing: -0.8px; margin-bottom: 10px;}
+
+.charts .chart{position: relative; width: 312px; height:6px; margin-top: 9px; background-color: #898989;}
+.charts .chart h5{position: absolute; top: 50%; right: -23%; transform:translate(-50%,-50%); margin: 0; z-index: 999;
+    font-family: Apple_SD_Gothic_Bold; font-size: 16px; letter-spacing: -0.8px;}
+.charts svg{position:absolute; width: 100%; height:100%;}
+
+/* .progress_bar_wrap {width: 310px;height: 70px;} */
+/* .progress_bar_wrap .progress_bar{position: relative; top: 10px; width: 100%; height: 7px; background-color: #898989;} */
+/* .progress_bar_wrap .progress_bar h5{position: absolute; top: 2px; right: -16%; transform:translate(-50%,-50%); font-family: Apple_SD_Gothic_Bold; font-size: 16px; letter-spacing: -0.8px; margin-left: 20px;} */
+line{fill:#ebebeb; stroke-width:14; stroke-dasharray: 312; stroke-dashoffset: 312;}
+line{stroke:#85f21c;}
+/* .progress_per{position: absolute; top: -12px; right: -19%; font-family: Apple_SD_Gothic_Bold; font-size: 16px; letter-spacing: -0.8px; margin-left: 20px;} */
+
+
+
+
+
+
+/* line{fill:#ebebeb; stroke-width:14; stroke-dasharray: 300; stroke-dashoffset: 300;}
+line{stroke:#85f21c;} */
+
+/* .charts .chart:nth-child(1) line{
+    stroke:#ffc114;
+}
+.charts .chart:nth-child(2) line{
+    stroke:#ff5248;
+    top: -13px;
+}
+.charts .chart:nth-child(3) line{
+    stroke:#19cdca;
+}
+.charts .chart:nth-child(4) line{
+    stroke:#4e88e1;
+} */

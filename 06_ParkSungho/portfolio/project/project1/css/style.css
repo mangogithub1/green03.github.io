@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* 탭버튼 */
+
+#content4>.container .tabmenu {
+    width: 100%;
+}
+
+#content4>.container .tabmenu ul li {
+    display: inline-block;
+}
+
+#content4>.container .tabmenu ul li div button {
+    display: inline-block;
+    background-color: #39c;
+    color: #fff;
+    font-size: 13px;
+    width: 160px;
+    height: 38px;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: left;
+}
+
+#content4>.container .tabmenu ul li div button:hover {
+    background-color: #03546b;
+}
+
+#content4>.container .tabmenu ul li div button.addTab {
+    background-color: #03546b;
+}
+
+
+/* 슬라이드 그룹 및 슬라이드 공통스타일 */
+
+#content4>.container .slide-view {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    z-index: 1;
+}
+
+#content4>.container .slide-view .slide-wrap {
+    position: relative;
+    height: 100px;
+}
+
+
+/* 슬라이드그룹4개 */
+
+#content4>.container .slide-view {
+    display: none;
+}
+
+#content4>.container .slide-view-0 {
+    display: block;
+    background: white;
+}
+
+#content4>.container .box {
+    background: #fff;
+}
+
+#content4>.container .boxtool {
+    display: block;
+    padding: 20px;
+}
+
+#content4>.container .boxtool .box {
+    height: 96px;
+    width: 96px;
+    border-radius: 100%;
+    border: 1px solid #cfcfcf;
+    background-color: #fff;
+    text-align: center;
+    font-size: 11px;
+    color: #424242;
+    margin-left: 57px;
+}
+
+#content4>.container .box a {
+    display: block;
+    padding-top: 16px;
+}
+
+#content4>.container .box span {
+    display: block;
+    color: #333;
+    margin-top: 4px;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+
+#content4>.container .boxtool .box img {
+    height: 33px;
+}

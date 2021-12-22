@@ -1,0 +1,870 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+body {
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar- {
+    width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #ddd;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #00a3d9;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #660;
+}
+
+#skip {
+    z-index: 9999;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    font-size: 0;
+}
+
+#skip ul>li {
+    width: 100%;
+    height: auto;
+    font-size: 0;
+}
+
+#skip ul>li>a {
+    display: block;
+    padding: 0;
+    font-size: 0;
+    text-align: center;
+    color: #fff;
+    background: #000;
+}
+
+#skip ul>li>a:focus {
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* 레이아웃 */
+#header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 3px solid #0086b3;
+    position: fixed;
+    background: #fff;
+    z-index: 99;
+}
+
+#main {
+    height: 950px;
+    position: relative;
+    top: 100px;
+}
+
+#profile {
+    height: 955px;
+    position: relative;
+    background: url(../images/profileTxtBg.png) no-repeat center 400px;
+    padding-top: 200px;
+}
+
+#webstd {
+    height: 1000px;
+    position: relative;
+    padding-top: 150px;
+}
+
+#jquery {
+    height: 1000px;
+    position: relative;
+    padding-top: 150px;
+}
+
+#response {
+    height: 1000px;
+    position: relative;
+    padding-top: 150px;
+}
+
+#bstrap {
+    height: 1000px;
+    position: relative;
+    padding-top: 150px;
+}
+
+#mobile {
+    height: 1000px;
+    position: relative;
+    padding-top: 150px;
+}
+
+#design {
+    height: 1000px;
+    position: relative;
+    padding-top: 150px;
+}
+
+/* 공동 */
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    height: inherit;
+    position: relative;
+    overflow: hidden;
+}
+
+.title {
+    width: 460px;
+    height: 140px;
+    background: url(../images/titleBg.png) no-repeat 20px -25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+.title>ul li.titleName {
+    font-size: 50px;
+}
+
+.color1 {
+    color: #3399cc;
+}
+
+/* 헤더 */
+.menuwrap {
+    position: relative;
+}
+
+.menu {
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+    padding: 0 14px;
+}
+
+.menu li a {
+    display: block;
+    padding: 2px 4px;
+    line-height: 100px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #008c8c;
+    text-transform: uppercase;
+}
+
+.menu li.on a {
+    color: #003040;
+}
+
+.mLogo {
+    margin-top: 10px;
+}
+
+.mLogo img {
+    width: 100px;
+}
+
+.fav {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    display: block;
+    padding: 0 4px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #26376f;
+}
+
+/* 메인 */
+#main .container {
+    background: url(../images/li.jpg) no-repeat right center;
+    line-height: 950px;
+}
+
+/* Cursor */
+.typed-cursor {
+    color: red;
+}
+
+/* 프로파일 */
+.profileCont {
+    width: 860px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 280px;
+    position: relative;
+    overflow: hidden;
+}
+
+.profileCont .textW {
+    width: 600px;
+    font-size: 48px;
+    line-height: 40px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin-left: -300px;
+}
+
+.cl {
+    display: inline-block;
+    color: red;
+}
+
+.profileCont .ptitle {}
+
+.profileCont div.proWrap {
+    width: 860px;
+    height: 400px;
+    margin-left: 5px;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.profileCont .proWrap>div {
+    position: absolute;
+}
+
+.about {
+    bottom: 15px;
+    left: 0;
+}
+
+.profileCont .proWrap>div ul li {
+    padding: 3px 0 3px 25px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.profileCont .proWrap>div>ul>li>img {
+    margin: 0 10px;
+}
+
+.profileCont .proWrap>div>h3 {
+    padding: 10px 20px;
+}
+
+.skill {
+    bottom: 15px;
+    left: 285px;
+}
+
+.skill ul li {
+    padding: 3px 0 3px 25px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.careea {
+    bottom: 15px;
+    left: 572px;
+    overflow: hidden;
+    height: 375px;
+}
+
+.careea>ul>li {
+    padding: 3px 0 3px 25px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.careea>ul.work {
+    width: 230px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.careea>ul.work li.work1 {
+    position: absolute;
+    top: 0;
+}
+
+.careea>ul.work li.work2 {
+    position: absolute;
+    top: 100%;
+}
+
+.careea>ul.work li.work3 {
+    position: absolute;
+    top: 200%;
+}
+
+.careea>ul.work li.work4 {
+    position: absolute;
+    top: 300%;
+}
+
+.careea>ul.work ul>li {
+    font-size: 13px;
+    padding: 3px 0 3px 35px;
+}
+
+.careea>ul.company {
+    width: 230px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+#profile .careea ul.company li.company1 {
+    position: absolute;
+    top: 0;
+}
+
+#profile .careea ul.company li.company2 {
+    position: absolute;
+    top: 100%;
+}
+
+#profile .careea ul.company li.company3 {
+    position: absolute;
+    top: 200%;
+}
+
+#profile .careea ul.company li.company4 {
+    position: absolute;
+    top: 300%;
+}
+
+#profile .careea ul.company li.company5 {
+    position: absolute;
+    top: 400%;
+}
+
+#profile .careea ul.company li.company6 {
+    position: absolute;
+    top: 500%;
+}
+
+#profile .careea ul.company li img {
+    padding: 8px 0;
+    vertical-align: middle;
+}
+
+/* webstd */
+.webstd_cont .webstd_left {
+    width: 600px;
+    position: absolute;
+    top: 120px;
+    left: -600px;
+}
+
+.webstd_cont .webstd_left p {
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 90px;
+}
+
+.webstd_cont .webstd_right {
+    width: 600px;
+    right: -600px;
+    position: absolute;
+    top: 220px;
+}
+
+.webstd_cont .webstd_text_top {
+    width: 600px;
+    height: auto;
+    border: 2px solid #eee;
+    left: -40px;
+}
+
+.webstd_cont .webstd_text_top ul li::selection {
+    background-color: #dddddd;
+    color: #ff0000;
+}
+
+.webstd_cont .webstd_text_top .webstd_text_one {
+    width: 530px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.webstd_cont .webstd_text_top .webstd_text_two {
+    width: 530px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.webstd_cont .webstd_bold {
+    font-size: 18px;
+    color: #555;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.webstd_cont .webstd_normal {
+    color: #777;
+    padding-top: 20px;
+}
+
+.hidden {
+    display: block;
+    width: 502px;
+    height: 283px;
+    overflow: hidden;
+    position: relative;
+    top: -336px;
+    left: 23px;
+}
+
+.hidden>img {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* jquery */
+.jquery_cont .jquery_left {
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    top: 250px;
+}
+
+.jquery_cont .jquery_text_top {
+    width: 400px;
+    height: auto;
+    left: -40px;
+}
+
+.jquery_cont .jquery_text_top .jquery_text_one {
+    width: 400px;
+    height: 250px;
+    background: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    padding: 20px 20px 0 20px;
+    display: none;
+}
+
+.jquery_cont .jquery_text_top .jquery_text_two {
+    width: 400px;
+    height: 200px;
+    background: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    padding: 20px 20px 0 20px;
+    font-family: "Roboto", sans-serif;
+    display: none;
+}
+
+.jquery_cont .jquery_bold {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.jquery_cont .jquery_normal {
+    line-height: 2;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
+
+.jquery_cont .sBold {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.jquery_cont .jquery_right {
+    width: 800px;
+    position: absolute;
+    top: 150px;
+    right: 40px;
+}
+
+.jquery_cont .jquery_right p {
+    width: 800px;
+    height: 450px;
+    position: relative;
+    top: 90px;
+}
+
+.jquery_cont .jquery_inner {
+    width: 667px;
+    height: 450px;
+    background: #ccc;
+    position: absolute;
+    top: 125px;
+    left: 65px;
+    overflow: hidden;
+}
+
+.hidden02{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.hidden02>img {
+    display: block;
+    position: absolute;
+    top: -1px;
+}
+
+.jquery_com {
+    position: relative;
+    left: 0;
+}
+
+/* response */
+.response_cont .response_left {
+    width: 600px;
+    position: absolute;
+    top: 120px;
+    left: -600px;
+}
+
+.response_cont .response_left p {
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 90px;
+}
+
+.response_cont .response_right {
+    width: 600px;
+    right: -600px;
+    position: absolute;
+    top: 220px;
+}
+
+.response_cont .response_text_top {
+    width: 600px;
+    height: auto;
+    border: 2px solid #eee;
+    left: -40px;
+}
+
+.response_cont .response_text_top .response_text_one {
+    width: 530px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.response_cont .response_text_top .response_text_two {
+    width: 530px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.response_cont .response_bold {
+    font-size: 18px;
+    color: #555;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.response_cont .response_normal {
+    color: #777;
+    padding-top: 20px;
+}
+
+.hidden {
+    display: block;
+    width: 502px;
+    height: 283px;
+    overflow: hidden;
+    position: relative;
+    top: -336px;
+    left: 23px;
+}
+
+.hidden>img {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* bstrap */
+.bstrap_cont .bstrap_left {
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    top: 250px;
+}
+
+.bstrap_cont .bstrap_text_top {
+    width: 400px;
+    height: auto;
+    left: -40px;
+}
+
+.bstrap_cont .bstrap_text_top .bstrap_text_one {
+    width: 400px;
+    height: 250px;
+    background: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    padding: 20px 20px 0 20px;
+}
+
+.bstrap_cont .bstrap_text_top .bstrap_text_two {
+    width: 400px;
+    height: 200px;
+    background: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    padding: 20px 20px 0 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.bstrap_cont .bstrap_bold {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.bstrap_cont .bstrap_normal {
+    line-height: 2;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
+
+.bstrap_cont .sBold {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.bstrap_cont .bstrap_right {
+    width: 800px;
+    position: absolute;
+    top: 150px;
+    right: 40px;
+}
+
+.bstrap_cont .bstrap_right p {
+    width: 800px;
+    height: 450px;
+    position: relative;
+    top: 90px;
+}
+
+.bstrap_cont .bstrap_inner {
+    width: 667px;
+    height: 450px;
+    background: #ccc;
+    position: absolute;
+    top: 125px;
+    left: 65px;
+    overflow: hidden;
+}
+
+.hidden02>img {
+    display: block;
+    position: absolute;
+    top: -1px;
+}
+
+.bstrap_com {
+    position: relative;
+    left: 0;
+}
+
+/* mobile */
+.mobile_cont .mobile_left {
+    width: 600px;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+
+.mobile_cont .mobile_left p {
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 90px;
+}
+
+.mobile_cont .mobile_right {
+    width: 600px;
+    right: 10px;
+    position: absolute;
+    top: 220px;
+}
+
+.mobile_cont .mobile_text_top {
+    width: 600px;
+    height: auto;
+    border: 2px solid #eee;
+    left: -40px;
+}
+
+.mobile_cont .mobile_text_top .mobile_text_one {
+    width: 530px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.mobile_cont .mobile_text_top .mobile_text_two {
+    width: 530px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.mobile_cont .mobile_bold {
+    font-size: 18px;
+    color: #555;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.mobile_cont .mobile_normal {
+    color: #777;
+    padding-top: 20px;
+}
+
+.hidden {
+    display: block;
+    width: 502px;
+    height: 283px;
+    overflow: hidden;
+    position: relative;
+    top: -336px;
+    left: 23px;
+}
+
+.hidden>img {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* graphic */
+.tab_content {
+    width: 1280px;
+    height: 640px;
+    overflow: hidden;
+    margin-top: 200px;
+    position: relative;
+}
+
+.tab_content ul li {
+    float: left;
+    width: 310px;
+    height: 310px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background: #f0f0f0;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #f0f0f0;
+    cursor: pointer;
+}
+
+.tab_content ul li.margin0 {
+    margin-right: 0;
+}
+
+.tab_content ul li a {
+    display: block;
+    width: 310px;
+    height: 310px;
+}
+
+.tab_content ul li .hover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 310px;
+    height: 310px;
+    background: rgba(0, 0, 0, .85);
+    z-index: 100;
+}
+
+.tab_content ul li .hover a {
+    display: block;
+    width: 310px;
+    height: 310px;
+}
+
+.tab_content ul li .hover a h4 {
+    text-align: center;
+    font-size: 18px;
+    color: #ffcc00;
+    font-weight: bold;
+    padding-top: 125px;
+    margin-bottom: 5px;
+}
+
+.tab_content ul li .hover a p {
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+}
+
+/* 퀵메뉴 스타일 정의 */
+#floatdiv {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    margin-left: 10px;
+}
+
+#floatdiv ul {
+    list-style: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#floatdiv ul li {
+    list-style: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#floatdiv ul li span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    margin: 0 0 5px 0;
+    cursor: pointer;
+}
+
+#floatdiv ul li:hover span {
+    background: #00a3d9;
+}
+
+#floatdiv ul li.active span {
+    width: 40px;
+    height: 20px;
+    background: #00b3b2;
+}
